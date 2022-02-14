@@ -4084,12 +4084,8 @@
   "ast": {
     "absolutePath": "project:/contracts/DelicateDinosToken.sol",
     "exportedSymbols": {
-      "ConvertLib": [
-        16
-      ],
-      "DelicateDinosToken": [
-        182
-      ]
+      "ConvertLib": [16],
+      "DelicateDinosToken": [182]
     },
     "id": 183,
     "license": "MIT",
@@ -4097,12 +4093,7 @@
     "nodes": [
       {
         "id": 56,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".4"
-        ],
+        "literals": ["solidity", "^", "0.8", ".4"],
         "nodeType": "PragmaDirective",
         "src": "32:23:2"
       },
@@ -4125,9 +4116,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 182,
-        "linearizedBaseContracts": [
-          182
-        ],
+        "linearizedBaseContracts": [182],
         "name": "DelicateDinosToken",
         "nameLocation": "356:18:2",
         "nodeType": "ContractDefinition",
@@ -5665,12 +5654,8 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/DelicateDinosToken.sol",
     "exportedSymbols": {
-      "ConvertLib": [
-        16
-      ],
-      "DelicateDinosToken": [
-        182
-      ]
+      "ConvertLib": [16],
+      "DelicateDinosToken": [182]
     },
     "id": 183,
     "license": "MIT",
@@ -5678,12 +5663,7 @@
     "nodes": [
       {
         "id": 56,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".4"
-        ],
+        "literals": ["solidity", "^", "0.8", ".4"],
         "nodeType": "PragmaDirective",
         "src": "32:23:2"
       },
@@ -5706,9 +5686,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 182,
-        "linearizedBaseContracts": [
-          182
-        ],
+        "linearizedBaseContracts": [182],
         "name": "DelicateDinosToken",
         "nameLocation": "356:18:2",
         "nodeType": "ContractDefinition",

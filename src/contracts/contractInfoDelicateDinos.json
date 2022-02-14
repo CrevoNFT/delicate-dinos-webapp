@@ -2646,9 +2646,7 @@
   "ast": {
     "absolutePath": "project:/contracts/DelicateDinos.sol",
     "exportedSymbols": {
-      "DelicateDinos": [
-        54
-      ]
+      "DelicateDinos": [54]
     },
     "id": 55,
     "license": "MIT",
@@ -2656,12 +2654,7 @@
     "nodes": [
       {
         "id": 18,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".4"
-        ],
+        "literals": ["solidity", "^", "0.8", ".4"],
         "nodeType": "PragmaDirective",
         "src": "32:23:1"
       },
@@ -2672,9 +2665,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 54,
-        "linearizedBaseContracts": [
-          54
-        ],
+        "linearizedBaseContracts": [54],
         "name": "DelicateDinos",
         "nameLocation": "66:13:1",
         "nodeType": "ContractDefinition",
@@ -2950,10 +2941,7 @@
                       "id": 40,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "297:7:1",
                       "typeDescriptions": {
@@ -3121,9 +3109,7 @@
   "legacyAST": {
     "absolutePath": "project:/contracts/DelicateDinos.sol",
     "exportedSymbols": {
-      "DelicateDinos": [
-        54
-      ]
+      "DelicateDinos": [54]
     },
     "id": 55,
     "license": "MIT",
@@ -3131,12 +3117,7 @@
     "nodes": [
       {
         "id": 18,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".4"
-        ],
+        "literals": ["solidity", "^", "0.8", ".4"],
         "nodeType": "PragmaDirective",
         "src": "32:23:1"
       },
@@ -3147,9 +3128,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 54,
-        "linearizedBaseContracts": [
-          54
-        ],
+        "linearizedBaseContracts": [54],
         "name": "DelicateDinos",
         "nameLocation": "66:13:1",
         "nodeType": "ContractDefinition",
@@ -3425,10 +3404,7 @@
                       "id": 40,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "297:7:1",
                       "typeDescriptions": {
