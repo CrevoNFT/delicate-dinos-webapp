@@ -20,6 +20,7 @@ import Welcome from "components/Welcome";
 import MenuItems from "./components/MenuItems";
 import ContractDelicateDinos from "components/ContractDelicateDinos/ContractDelicateDinos";
 import ContractDelicateDinosToken from "components/ContractDelicateDinosToken/ContractDelicateDinosToken";
+import SocialFollow from "components/SocialFollow";
 const { Header, Footer } = Layout;
 
 const styles = {
@@ -118,7 +119,7 @@ const App = () => {
         </div>
       </Router>
       <Footer style={{ textAlign: "center", color: "deeppink" }}>
-        Social Media Icons here
+        <SocialFollow />
       </Footer>
     </Layout>
   );
