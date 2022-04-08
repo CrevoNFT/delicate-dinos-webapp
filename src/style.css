@@ -6,7 +6,6 @@
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
-
   border-bottom: 2px solid #21bf96 !important;
 }
 
@@ -20,16 +19,15 @@
   border-radius: 1rem;
 }
 
-.SocialFollow{
+.SocialFollow {
   padding: 25px 50px;
 }
 
 /* SOCIAL FOLLOW */
- .social-container {
+.social-container {
   padding: 100px 250px;
-} 
+}
 
 a.social {
   margin: 25px 50px 75px 100px;
 }
-
