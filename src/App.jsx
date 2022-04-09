@@ -19,7 +19,7 @@ import "./style.css";
 import Welcome from "components/Welcome";
 import MenuItems from "./components/MenuItems";
 import ContractDelicateDinos from "components/ContractDelicateDinos/ContractDelicateDinos";
-import ContractDelicateDinosToken from "components/ContractDelicateDinosToken/ContractDelicateDinosToken";
+import ContractDelicateDinosToken from "components/ContractDelicateDinosToken/ContractDinoUpToken";
 import SocialFollow from "components/SocialFollow";
 const { Header, Footer } = Layout;
 

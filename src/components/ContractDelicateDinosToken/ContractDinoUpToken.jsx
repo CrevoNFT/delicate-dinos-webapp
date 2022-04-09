@@ -1,9 +1,9 @@
 import Contract from "components/Contract/Contract";
-import ContractResolverDelicateDinosToken from "./ContractResolverDelicateDinosToken";
+import ContractResolverDinoUpToken from "./ContractResolverDinoUpToken";
 
-export default function ContractDelicateDinosToken() {
+export default function ContractDinoUpToken() {
   const res = (setContract, contract) => (
-    <ContractResolverDelicateDinosToken
+    <ContractResolverDinoUpToken
       setContract={setContract}
       contract={contract}
     />
