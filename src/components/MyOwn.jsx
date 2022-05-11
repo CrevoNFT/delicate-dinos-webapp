@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useMoralis, useNFTBalances } from "react-moralis";
-import { Card, Image, Tooltip, Modal, Input, Skeleton } from "antd";
+import { Card, Image, Tooltip, Modal, Input, Skeleton, Button } from "antd";
 import {
   FileSearchOutlined,
   SendOutlined,
@@ -27,7 +27,7 @@ const styles = {
 
 function MyOwn() {
   const { data: NFTBalances } = useNFTBalances();
-  const { Moralis, chainId } = useMoralis();
+  const { Moralis, chainId, isAuthenticated, authenticate } = useMoralis();
   const [visible, setVisibility] = useState(false);
   const [receiverToSend, setReceiver] = useState(null);
   const [amountToSend, setAmount] = useState(null);
@@ -68,6 +68,27 @@ function MyOwn() {
   const handleChange = (e) => {
     setAmount(e.target.value);
   };
+
+  if (!isAuthenticated) {
+    return (
+      <div>
+        <Button
+          mt={4}
+          colorScheme="white"
+          isFullWidth={true}
+          variant="link"
+          isDisabled={false}
+          onClick={() =>
+            authenticate({
+              signingMessage: "Connect to our site via your wallet.",
+            })
+          }
+        >
+          ϟ Connect to your wallet!
+        </Button>
+      </div>
+    );
+  }
 
   console.log("NFTBalances", NFTBalances);
   return (
